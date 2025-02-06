@@ -64,9 +64,9 @@
     transition: transform 0.3s;
 }
 
-.profile-card img:hover {
-    transform: rotate(10deg); /* Rotate image slightly on hover */
-}
+/* .profile-card img:hover {
+    transform: rotate(10deg); /* Rotate image slightly on hover
+} */
 
 .profile-card h2 {
     font-size: 1.5rem;
