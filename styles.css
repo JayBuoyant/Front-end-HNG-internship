@@ -1,4 +1,4 @@
-body {
+/* body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@ body {
 }
 
 .profile-card {
-    background: white;
+    background: rgb(99, 98, 98);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -27,4 +27,69 @@ body {
     margin: 5px;
     text-decoration: none;
     color: #0073b1;
+}
+ */
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333; /* Darker gray background */
+    color: #f4f4f4;         /* Light gray text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.profile-card {
+    background: linear-gradient(135deg, #6b6b6b, #1e1e1e); /* Gradient background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 320px;
+    transition: transform 0.3s;
+}
+
+.profile-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.profile-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #f4f4f4; /* Add a border to the image */
+    transition: transform 0.3s;
+}
+
+.profile-card img:hover {
+    transform: rotate(10deg); /* Rotate image slightly on hover */
+}
+
+.profile-card h2 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.profile-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0073b1; /* LinkedIn blue */
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #005582; /* Darker blue on hover */
 }
