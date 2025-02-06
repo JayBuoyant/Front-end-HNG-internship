@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-card">
+        <img src="images/profile.jpg" alt="Profile Picture" data-testid="profilePicture">
+        <h1 data-testid="fullName">Jonathan Okoro</h1>
+        <p data-testid="jobTitle">Front-end Developer Intern</p>
+        <p data-testid="shortBio">Transitioned from biochemist to a tech enthusiat. Passionate about building user-friendly web applications. Skilled in JavaScript, React, and CSS.</p>
+        <p data-testid="currentLocation">Lagos, Nigeria</p>
+        <p data-testid="emailAddress">jonathaniokoro@gmail.com</p>
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://github.com/JayBuoyant" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/jonathaniokoro/" target="_blank">LinkedIn</a>
+            <a href="https://x.com/Candid_Joe_231" target="_blank">Twitter</a>
+            <a href="https://jonathanokoro.b12sites.com/index" target="_blank">Website</a>
+            <a href="https://hashnode.com/@candidjoe" target="_blank">Hashnode</a>
+        </div>
+        <p data-testid="currentTimeUTC" id="utc-time"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
